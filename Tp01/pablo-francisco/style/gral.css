@@ -1,0 +1,172 @@
+body {
+  background-color: rgb(177, 211, 238);
+}
+
+.dropdown-toggle {
+  color: #707071;
+}
+
+.contenido-central {
+  margin-bottom: 90px;
+}
+
+.primer-titulo-pagina {
+  background-color: rgba(255, 255, 255, 0.356);
+  margin: 50px 0;
+}
+
+.primer-titulo-pagina h3 {
+  background-color: inherit;
+}
+
+h3 {
+  background-color: #ffffffde;
+  margin-bottom: 40px;
+}
+
+
+.tab-content {
+  padding: 50px 20px;
+  background-color: rgba(255, 255, 255, 0.521);
+}
+
+.tab-pane p {
+  padding: 0 50px;
+}
+
+/* EJERCICIO 5 */
+.altura-caja .row {
+  margin: 10px 0;
+  height: 150px;
+}
+
+.caja-blanca-ej5y6 {
+  background: rgba(255, 255, 255, 0.753);
+}
+
+/* EJERCICIO 11 */
+.img-miniaturas {
+  background-color: rgba(255, 255, 255, 0.521);
+}
+
+.fondo-subtitulo-cuadro {
+  background-color: rgba(255, 255, 255, 0.795);
+}
+
+.fondo-parrafo-cuadro {
+  background-color: rgb(134 201 255);
+  padding: 20px;
+}
+
+.fondo-lista-cuadro {
+  background-color: rgb(255, 255, 255);
+}
+
+.fondo-img-grande {
+  background-color: rgba(255, 255, 255, 0.521);
+}
+
+.img-grande {
+  margin-bottom: 50px;
+}
+
+.fondo-tabla {
+  background-color: rgb(134 201 255);
+}
+
+.fondo-parrafo-final {
+  background-color: rgb(209, 234, 255);
+}
+
+/* estilos para el carrusel de imagenes */
+.carousel-item {
+  height: 100vh;
+}
+
+/* change transition duration to control the speed of fade effect */
+.carousel-item {
+  transition: transform 2.6s ease-in-out;
+}
+
+.carousel-item img {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  object-position: center;
+  object-fit: cover;
+}
+
+.carousel-fade .active.carousel-item-start,
+.carousel-fade .active.carousel-item-end {
+  transition: opacity 0s 2.6s;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  top: 200px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: fit-content;
+  padding: 25px 5px;
+  backdrop-filter: blur(2px);
+  box-shadow: 0 0 10px #fff;
+}
+
+.carousel-caption p {
+  font-size: 1.2em;
+  margin-top: 30px;
+  font-weight: 100;
+}
+
+.activ {
+  color: #ffffff;
+  font-weight: bold;
+  background-color: rgb(134 201 255);
+  border-color: #dee2e6 #00dcff #fff;
+}
+
+/* Base class */
+.callout {
+  padding: 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  border: 1px solid rgb(104, 5, 5);
+  border-left-width: .25rem;
+  border-radius: .25rem
+}
+
+/* Modifier classes */
+.callout-info {
+  border-left-color: rgb(70, 217, 228);
+}
+
+.callout-warning {
+  border-left-color: #f0ad4e
+}
+
+.callout-danger {
+
+  border-left-color: #d9534f;
+
+}
+
+.font_cinzel {
+  font-family: 'Cinzel Decorative', cursive;
+  font-family: 'Martel', serif;
+  font-size: 20px;
+  color: #1d1b1b;
+  text-shadow: 1px 1px #000000  ;
+
+}
+
+.cinzel {
+  font-family: 'Cinzel Decorative', cursive;
+  font-family: 'Martel', serif;
+  text-shadow: #1d1b1b;
+}
